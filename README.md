@@ -24,7 +24,7 @@ Persistência dos dados em arquivo CSV (carros.csv).
 
 Criação automática do arquivo CSV, se não existir.
 
-Estrutura do projeto
+## Estrutura do projeto
 LavagemNovo/
 ├─ node_modules/
 ├─ carros.csv         # arquivo CSV com os dados dos carros
@@ -34,13 +34,13 @@ LavagemNovo/
 ├─ tsconfig.json
 └─ README.md          # este arquivo
 
-Requisitos
+## Requisitos
 
 Node.js 16 ou superior (recomendado 18+)
 
 npm
 
-Instalação
+## Instalação
 
 Clone ou baixe o projeto.
 
@@ -82,7 +82,7 @@ Certifique-se que o tsconfig.json está configurado assim (ou similar):
   }
 }
 
-Como usar
+## Como usar
 
 Execute o comando para iniciar o programa:
 
@@ -107,7 +107,7 @@ Sair
 
 Basta digitar o número da opção desejada e seguir as instruções.
 
-Dados armazenados
+## Dados armazenados
 
 Os dados ficam salvos no arquivo carros.csv, no formato CSV com as colunas:
 
@@ -124,6 +124,7 @@ status (Não iniciado, Lavando ou Pronto)
 Reset / Limpeza dos dados
 
 Para apagar todos os registros e começar do zero, delete o arquivo carros.csv. Ele será recriado automaticamente ao iniciar o programa.
+
 
 
 
