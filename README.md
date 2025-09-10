@@ -1,8 +1,8 @@
-# Programas-de-typescript
-Ciências da Computação - 2° Semestre
-Caio Zanfollim Cunha - 2509832
-João Pedro de Andrade Silva - 2508650
 
+# Programas-de-typescript
+Ciências da Computação - 2° Semestre  
+Caio Zanfollim Cunha - 2509832  
+João Pedro de Andrade Silva - 2508650
 
 # Sistema Lavajato
 
@@ -10,23 +10,20 @@ Aplicativo de linha de comando para gerenciar o fluxo de lavagem de carros em um
 
 ## Funcionalidades
 
-Cadastro de carros: placa, modelo, marca, cor e status da lavagem.
-
-Controle de status da lavagem: iniciar e finalizar.
-
-Busca por placa para consultar o status atual do veículo.
-
-Listagem de todos os carros cadastrados e seus status.
-
-Remoção de carros do sistema.
-
-Persistência dos dados em arquivo CSV (carros.csv).
-
-Criação automática do arquivo CSV, se não existir.
+- Cadastro de carros: placa, modelo, marca, cor e status da lavagem.
+- Controle de status da lavagem: iniciar e finalizar.
+- Busca por placa para consultar o status atual do veículo.
+- Listagem de todos os carros cadastrados e seus status.
+- Remoção de carros do sistema.
+- Persistência dos dados em arquivo CSV (carros.csv).
+- Criação automática do arquivo CSV, se não existir.
 
 ## Estrutura do projeto
+
+
+
 LavagemNovo/
-├─ node_modules/
+├─ node\_modules/
 ├─ carros.csv         # arquivo CSV com os dados dos carros
 ├─ lavagem.ts         # código fonte TypeScript principal
 ├─ package.json
@@ -34,11 +31,11 @@ LavagemNovo/
 ├─ tsconfig.json
 └─ README.md          # este arquivo
 
+
 ## Requisitos
 
-Node.js 16 ou superior (recomendado 18+)
-
-npm
+- Node.js 16 ou superior (recomendado 18+)
+- npm
 
 ## Instalação
 
@@ -46,11 +43,13 @@ Clone ou baixe o projeto.
 
 Na pasta raiz do projeto, instale as dependências:
 
+
 npm install
 npm i -D typescript ts-node @types/node
 
 
 Configure no package.json o script para rodar em modo desenvolvimento:
+
 
 {
   "name": "desktop",
@@ -68,7 +67,9 @@ Configure no package.json o script para rodar em modo desenvolvimento:
   }
 }
 
+
 Certifique-se que o tsconfig.json está configurado assim (ou similar):
+
 
 {
   "compilerOptions": {
@@ -82,28 +83,24 @@ Certifique-se que o tsconfig.json está configurado assim (ou similar):
   }
 }
 
+
 ## Como usar
 
 Execute o comando para iniciar o programa:
+
 
 npm run dev
 
 
 O programa exibirá um menu interativo no terminal com as opções:
 
-Cadastrar carro
-
-Listar carros cadastrados
-
-Buscar carro pela placa
-
-Remover carro pela placa
-
-Iniciar lavagem
-
-Finalizar lavagem
-
-Sair
+* Cadastrar carro
+* Listar carros cadastrados
+* Buscar carro pela placa
+* Remover carro pela placa
+* Iniciar lavagem
+* Finalizar lavagem
+* Sair
 
 Basta digitar o número da opção desejada e seguir as instruções.
 
@@ -111,22 +108,14 @@ Basta digitar o número da opção desejada e seguir as instruções.
 
 Os dados ficam salvos no arquivo carros.csv, no formato CSV com as colunas:
 
-placa (sempre em maiúsculas)
-
-modelo
-
-marca
-
-cor
-
-status (Não iniciado, Lavando ou Pronto)
+* placa (sempre em maiúsculas)
+* modelo
+* marca
+* cor
+* status (Não iniciado, Lavando ou Pronto)
 
 ## Reset / Limpeza dos dados
 
-Para apagar todos os registros e começar do zero, delete o arquivo carros.csv. Ele será recriado automaticamente ao iniciar o programa.
-
-
-
-
-
+Para apagar todos os registros e começar do zero, delete o arquivo carros.csv.
+Ele será recriado automaticamente ao iniciar o programa.
 
