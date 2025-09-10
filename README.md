@@ -1,8 +1,4 @@
-faz ai dog 
-
-
-
-﻿# Programas-de-typescript
+# Programas-de-typescript
 Ciências da Computação - 2° Semestre
 Caio Zanfollim Cunha - 2509832
 João Pedro de Andrade Silva - 2508650
@@ -128,3 +124,4 @@ status (Não iniciado, Lavando ou Pronto)
 Reset / Limpeza dos dados
 
 Para apagar todos os registros e começar do zero, delete o arquivo carros.csv. Ele será recriado automaticamente ao iniciar o programa.
+
