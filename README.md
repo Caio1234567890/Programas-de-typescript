@@ -4,7 +4,7 @@ Caio Zanfollim Cunha - 2509832
 João Pedro de Andrade Silva - 2508650
 
 
-Sistema Lavajato
+# Sistema Lavajato
 
 Aplicativo de linha de comando para gerenciar o fluxo de lavagem de carros em um lavajato. Permite cadastrar veículos, iniciar e finalizar a lavagem, buscar e listar carros, com os dados salvos em arquivo CSV para persistência simples.
 
@@ -124,4 +124,5 @@ status (Não iniciado, Lavando ou Pronto)
 Reset / Limpeza dos dados
 
 Para apagar todos os registros e começar do zero, delete o arquivo carros.csv. Ele será recriado automaticamente ao iniciar o programa.
+
 
