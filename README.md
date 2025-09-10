@@ -140,4 +140,3 @@ Ele será recriado automaticamente ao iniciar o programa.
 
 ---
 
-```
